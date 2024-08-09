@@ -16,7 +16,7 @@ How would you improve the tests in `./Superheroes.Tests/BattleTests.cs`?
 
 ## Weaknesses
 
-Some superheroes are particularly weak against certain supervillains. If a hero has a villain specifed in their `weakness` field then they have 1 point knocked off their score when fighting that villain. This can affect the outcome of the battle.
+Some superheroes are particularly weak against certain supervillains. If a hero has a villain specified in their `weakness` field then they have 1 point knocked off their score when fighting that villain. This can affect the outcome of the battle.
 
 Change the `/battle` endpoint to support this functionality.
 
@@ -31,4 +31,3 @@ Run the application.
 
 1. Should return Joker - http://localhost:5000/battle?hero=Batman&villain=Joker
 2. Should return Superman - http://localhost:5000/battle?hero=Superman&villain=Lex%20Luthor
-
