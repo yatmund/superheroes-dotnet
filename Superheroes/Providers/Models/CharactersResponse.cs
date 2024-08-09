@@ -1,4 +1,4 @@
-namespace Superheroes
+namespace Superheroes.Providers.Models
 {
     public class CharactersResponse
     {
